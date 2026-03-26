@@ -1,11 +1,11 @@
 
 let heroName = "Rafael";
-let heroXP = 8455;
+let heroXP = 1000;
 let heroLevel;
 
 switch (true) {
 
-  case heroXP <= 1000:
+  case heroXP < 1000:
     heroLevel = "Ferro";
     break;
 
@@ -33,7 +33,7 @@ switch (true) {
     heroLevel = "Imortal";
     break;
 
-  case heroXP > 10000:
+    default:
     heroLevel = "Radiante";
     break;
 }
